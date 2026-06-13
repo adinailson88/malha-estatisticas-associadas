@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malha Estatisticas Associadas</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <style>
+    :root {
+      --ink: #1f2937;
+      --muted: #64748b;
+      --line: #d7dee8;
+      --panel: #ffffff;
+      --bg: #f4f7fb;
+      --blue: #0f4c81;
+      --green: #2e7d32;
+      --amber: #a16207;
+      --red: #b91c1c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    h1 { margin: 0; font-size: 24px; color: var(--blue); }
+    header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    header a { color: var(--blue); font-weight: 700; text-decoration: none; font-size: 13px; }
+    main { max-width: 1240px; margin: 0 auto; padding: 18px; }
+    .status {
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 10px 12px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 14px;
+      min-width: 0;
+    }
+    .span-3 { grid-column: span 3; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 15px;
+      color: var(--blue);
+    }
+    .metric {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--blue);
+      line-height: 1.08;
+      word-break: break-word;
+    }
+    .metric-sub { margin-top: 8px; color: var(--muted); font-size: 12px; }
+    .chart { position: relative; height: 330px; }
+    .chart-sm { position: relative; height: 280px; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 7px 6px; text-align: left; vertical-align: top; }
+    th { color: var(--blue); background: #f8fafc; font-size: 11px; text-transform: uppercase; }
+    .table-wrap { overflow-x: auto; }
+    .muted { color: var(--muted); }
+    @media (max-width: 900px) {
+      .span-3, .span-4, .span-6, .span-8, .span-12 { grid-column: span 12; }
+      .chart { height: 280px; }
+      .metric { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Malha Estatisticas Associadas</h1>
+      <p>Agregados descritivos derivados do hub Malha IA, sem duplicar a base bruta.</p>
+    </div>
+    <nav>
+      <a href="https://adinailson88.github.io/malha-ia/">Hub Malha IA</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/adinailson88/malha-estatisticas-associadas">Repositorio</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="status" id="status">Carregando estatisticas associadas...</div>
+
+    <section class="grid">
+      <div class="card span-3">
+        <h2>Total de linhas</h2>
+        <div class="metric" id="m-total">-</div>
+        <div class="metric-sub">linhas agregadas a partir do hub</div>
+      </div>
+      <div class="card span-3">
+        <h2>IDs unicos</h2>
+        <div class="metric" id="m-ids">-</div>
+        <div class="metric-sub">chamados distintos</div>
+      </div>
+      <div class="card span-3">
+        <h2>Valor total</h2>
+        <div class="metric" id="m-valor">-</div>
+        <div class="metric-sub">soma de Valor do chamado</div>
+      </div>
+      <div class="card span-3">
+        <h2>Confianca media</h2>
+        <div class="metric" id="m-conf">-</div>
+        <div class="metric-sub">Avaliacao (%) media</div>
+      </div>
+
+      <div class="card span-8">
+        <h2>Serie mensal de chamados</h2>
+        <div class="chart"><canvas id="chart-serie"></canvas></div>
+      </div>
+      <div class="card span-4">
+        <h2>Distribuicao por criticidade</h2>
+        <div class="chart-sm"><canvas id="chart-criticidade"></canvas></div>
+      </div>
+
+      <div class="card span-6">
+        <h2>Ranking por campus</h2>
+        <div id="ranking-campus"></div>
+      </div>
+      <div class="card span-6">
+        <h2>Ranking por categoria raiz</h2>
+        <div id="ranking-categoria-raiz"></div>
+      </div>
+
+      <div class="card span-6">
+        <h2>Ranking por executor</h2>
+        <div id="ranking-executor"></div>
+      </div>
+      <div class="card span-6">
+        <h2>Ranking por status</h2>
+        <div id="ranking-status"></div>
+      </div>
+
+      <div class="card span-12">
+        <h2>Associacao campus x categoria raiz</h2>
+        <div class="muted">Top combinacoes por volume de chamados. A base bruta permanece somente no hub.</div>
+        <div id="matriz"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const arquivos = {
+      resumo: 'dados/resumo_geral.json',
+      serie: 'dados/serie_mensal.json',
+      campus: 'dados/ranking_campus.json',
+      categoriaRaiz: 'dados/ranking_categoria_raiz.json',
+      criticidade: 'dados/ranking_criticidade.json',
+      executor: 'dados/ranking_executor.json',
+      status: 'dados/ranking_status.json',
+      matriz: 'dados/matriz_campus_categoria.json',
+      manifest: 'dados/manifest_hub.json'
+    };
+    const charts = {};
+
+    function num(v) {
+      if (v === null || v === undefined || v === '') return null;
+      const n = Number(String(v).replace(',', '.'));
+      return Number.isFinite(n) ? n : null;
+    }
+    function brl(v) {
+      return (num(v) || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    function pct(v) {
+      const n = num(v);
+      return n === null ? '' : (n * 100).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + '%';
+    }
+    function tabela(headers, rows) {
+      return `<div class="table-wrap"><table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c ?? ''}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    }
+    function objetos(tab) {
+      const cab = tab[0] || [];
+      return (tab.slice(1) || []).map(l => {
+        const obj = {};
+        cab.forEach((h, i) => obj[h] = l[i]);
+        return obj;
+      });
+    }
+    async function carregarJson(url) {
+      const resp = await fetch(url, { cache: 'no-store' });
+      if (!resp.ok) throw new Error(`${url}: HTTP ${resp.status}`);
+      return resp.json();
+    }
+    function valorResumo(resumo, nome) {
+      const row = (resumo.slice(1) || []).find(r => r[0] === nome);
+      return row ? row[1] : '';
+    }
+    function renderMetricas(resumo) {
+      document.getElementById('m-total').textContent = Number(valorResumo(resumo, 'Total de linhas') || 0).toLocaleString('pt-BR');
+      document.getElementById('m-ids').textContent = Number(valorResumo(resumo, 'IDs unicos') || 0).toLocaleString('pt-BR');
+      document.getElementById('m-valor').textContent = brl(valorResumo(resumo, 'Valor total R$'));
+      document.getElementById('m-conf').textContent = pct(valorResumo(resumo, 'Confianca media IA'));
+    }
+    function renderSerie(serie) {
+      const rows = objetos(serie);
+      if (charts.serie) charts.serie.destroy();
+      charts.serie = new Chart(document.getElementById('chart-serie'), {
+        type: 'line',
+        data: {
+          labels: rows.map(r => r.Mes),
+          datasets: [
+            { label: 'N chamados', data: rows.map(r => num(r.N_chamados)), borderColor: '#0f4c81', backgroundColor: '#0f4c81', yAxisID: 'y', tension: 0.15, pointRadius: 1 },
+            { label: 'Valor total R$', data: rows.map(r => num(r['Valor_total_R$'])), borderColor: '#2e7d32', backgroundColor: '#2e7d32', yAxisID: 'y1', tension: 0.15, pointRadius: 1 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          scales: {
+            y: { position: 'left' },
+            y1: { position: 'right', grid: { drawOnChartArea: false }, ticks: { callback: v => brl(v) } }
+          }
+        }
+      });
+    }
+    function renderCriticidade(tab) {
+      const rows = objetos(tab);
+      if (charts.criticidade) charts.criticidade.destroy();
+      charts.criticidade = new Chart(document.getElementById('chart-criticidade'), {
+        type: 'doughnut',
+        data: {
+          labels: rows.map(r => r.Criticidade),
+          datasets: [{ data: rows.map(r => num(r.N_chamados)), backgroundColor: ['#2e7d32', '#a16207', '#b91c1c', '#64748b'] }]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+      });
+    }
+    function renderTabelas(campus, categoriaRaiz, executor, status, matriz) {
+      const campusRows = objetos(campus).slice(0, 10).map(r => [r.Dimensao, Number(r.N_chamados).toLocaleString('pt-BR'), brl(r['Valor_total_R$']), pct(r.Confianca_media)]);
+      document.getElementById('ranking-campus').innerHTML = tabela(['Campus', 'Chamados', 'Valor total', 'Confianca'], campusRows);
+
+      const catRows = objetos(categoriaRaiz).slice(0, 12).map(r => [r.Categoria_raiz, Number(r.N_chamados).toLocaleString('pt-BR')]);
+      document.getElementById('ranking-categoria-raiz').innerHTML = tabela(['Categoria raiz', 'Chamados'], catRows);
+
+      const execRows = objetos(executor).slice(0, 10).map(r => [r.Executor, Number(r.N_chamados).toLocaleString('pt-BR')]);
+      document.getElementById('ranking-executor').innerHTML = tabela(['Executor', 'Chamados'], execRows);
+
+      const statusRows = objetos(status).slice(0, 10).map(r => [r.Dimensao, Number(r.N_chamados).toLocaleString('pt-BR'), brl(r['Valor_total_R$'])]);
+      document.getElementById('ranking-status').innerHTML = tabela(['Status', 'Chamados', 'Valor total'], statusRows);
+
+      const matrizRows = objetos(matriz).slice(0, 40).map(r => [r.Campus, r.Categoria_raiz, Number(r.N_chamados).toLocaleString('pt-BR'), brl(r['Valor_total_R$'])]);
+      document.getElementById('matriz').innerHTML = tabela(['Campus', 'Categoria raiz', 'Chamados', 'Valor total'], matrizRows);
+    }
+    async function iniciar() {
+      try {
+        const [resumo, serie, campus, categoriaRaiz, criticidade, executor, status, matriz, manifest] = await Promise.all([
+          carregarJson(arquivos.resumo),
+          carregarJson(arquivos.serie),
+          carregarJson(arquivos.campus),
+          carregarJson(arquivos.categoriaRaiz),
+          carregarJson(arquivos.criticidade),
+          carregarJson(arquivos.executor),
+          carregarJson(arquivos.status),
+          carregarJson(arquivos.matriz),
+          carregarJson(arquivos.manifest)
+        ]);
+        renderMetricas(resumo);
+        renderSerie(serie);
+        renderCriticidade(criticidade);
+        renderTabelas(campus, categoriaRaiz, executor, status, matriz);
+        document.getElementById('status').textContent = `Dados carregados: agregados derivados de ${Number(manifest.linhas_origem || 0).toLocaleString('pt-BR')} linhas do hub. Base bruta nao versionada neste repositorio.`;
+      } catch (err) {
+        document.getElementById('status').textContent = `Falha ao carregar dados: ${err.message}`;
+      }
+    }
+    iniciar();
+  </script>
+</body>
+</html>
