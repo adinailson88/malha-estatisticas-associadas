@@ -1,0 +1,44 @@
+name: Atualizar estatisticas associadas
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 7 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-estatisticas-associadas
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar estatisticas
+        run: python scripts/gerar_estatisticas_associadas.py
+
+      - name: Gerar CSVs
+        run: python scripts/exportar_dados_csv.py
+
+      - name: Commitar atualizacoes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados dados_csv
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes nos dados."
+          else
+            git commit -m "Atualiza estatisticas associadas"
+            git push
+          fi

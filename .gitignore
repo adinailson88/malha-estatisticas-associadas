@@ -1,0 +1,20 @@
+# Cache Python local.
+__pycache__/
+*.pyc
+
+# Ambientes locais.
+.venv/
+venv/
+
+# Credenciais locais.
+autenticacao_google.json
+chaves_api.json
+credenciais*.json
+*.secret.json
+PREENCHER_SECRET_*.txt
+
+# Base bruta nao deve ser versionada neste repositorio.
+chamados.json
+chamados.csv
+dados/chamados.json
+dados_csv/chamados.csv
