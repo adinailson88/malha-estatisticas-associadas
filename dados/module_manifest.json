@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "estatisticas_associadas",
+  "titulo": "Estatisticas associadas",
+  "artigo": "Artigo 5 - Estatisticas associadas",
+  "repositorio": "malha-estatisticas-associadas",
+  "repo_url": "https://github.com/adinailson88/malha-estatisticas-associadas",
+  "pages_url": "https://adinailson88.github.io/malha-estatisticas-associadas/",
+  "dashboard_url": "https://adinailson88.github.io/malha-estatisticas-associadas/dashboard.html",
+  "hub_url": "https://github.com/adinailson88/malha-ia",
+  "manifest_hub_path": "dados/manifest_hub.json",
+  "modo_dados": "json_publico_hub_agregado",
+  "usa_secret": false,
+  "secret_principal": null,
+  "workflow_leve": "atualizar-dados-hub.yml",
+  "workflow_pesado": null,
+  "dashboard_tipo": "estatisticas_agregadas",
+  "status_operacional": "ativo",
+  "observacao": "Gera agregados a partir do JSON publico do hub sem acessar diretamente a planilha."
+}
