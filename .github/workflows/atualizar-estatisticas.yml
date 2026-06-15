@@ -3,7 +3,7 @@ name: Atualizar estatisticas associadas
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 7 * * *'
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
