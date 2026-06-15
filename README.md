@@ -9,6 +9,8 @@ Dashboard previsto: `https://adinailson88.github.io/malha-estatisticas-associada
 
 Este repositorio guarda apenas estatisticas agregadas. A base completa `chamados.json` permanece no hub `malha-ia`.
 
+Linhas vazias do snapshot publico nao entram nas estatisticas. O criterio de linha valida e `ID Chamado` preenchido.
+
 Ficam fora deste repositorio:
 
 1. Classificacao de chamados.

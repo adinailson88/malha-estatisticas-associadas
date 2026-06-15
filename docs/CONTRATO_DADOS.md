@@ -4,6 +4,8 @@
 
 O repositorio `adinailson88/malha-ia` permanece como hub central. Este repositorio consome `dados/chamados.json` apenas para gerar estatisticas agregadas.
 
+O snapshot publico pode conter linhas vazias preservadas da origem tabular. Para estatisticas, rankings e series, somente linhas com `ID Chamado` preenchido sao consideradas chamadas validas.
+
 ## Regra de fronteira
 
 `chamados.json` e `chamados.csv` nao devem ser versionados neste repositorio. A base bruta completa fica no hub.
@@ -40,6 +42,8 @@ O repositorio `adinailson88/malha-ia` permanece como hub central. Este repositor
 ## Uso esperado
 
 Estas tabelas servem como base para artigo ou relatorio de estatisticas associadas. Elas nao substituem os repositorios preditivos nem o painel ODS/ESG.
+
+O arquivo `dados/manifest_hub.json` registra `linhas_origem`, `linhas_validas`, `linhas_ignoradas_vazias` e `criterio_linha_valida` para auditoria do filtro aplicado.
 
 ## Limitacoes
 
