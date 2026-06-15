@@ -108,9 +108,9 @@
 
     <section class="grid">
       <div class="card span-3">
-        <h2>Total de linhas</h2>
+        <h2>Chamados validos</h2>
         <div class="metric" id="m-total">-</div>
-        <div class="metric-sub">linhas agregadas a partir do hub</div>
+        <div class="metric-sub">linhas com ID Chamado preenchido</div>
       </div>
       <div class="card span-3">
         <h2>IDs unicos</h2>
@@ -209,8 +209,15 @@
       const row = (resumo.slice(1) || []).find(r => r[0] === nome);
       return row ? row[1] : '';
     }
+    function primeiroValorResumo(resumo, nomes) {
+      for (const nome of nomes) {
+        const valor = valorResumo(resumo, nome);
+        if (valor !== '') return valor;
+      }
+      return '';
+    }
     function renderMetricas(resumo) {
-      document.getElementById('m-total').textContent = Number(valorResumo(resumo, 'Total de linhas') || 0).toLocaleString('pt-BR');
+      document.getElementById('m-total').textContent = Number(primeiroValorResumo(resumo, ['Total de chamados validos', 'Total de linhas']) || 0).toLocaleString('pt-BR');
       document.getElementById('m-ids').textContent = Number(valorResumo(resumo, 'IDs unicos') || 0).toLocaleString('pt-BR');
       document.getElementById('m-valor').textContent = brl(valorResumo(resumo, 'Valor total R$'));
       document.getElementById('m-conf').textContent = pct(valorResumo(resumo, 'Confianca media IA'));
@@ -283,7 +290,10 @@
         renderSerie(serie);
         renderCriticidade(criticidade);
         renderTabelas(campus, categoriaRaiz, executor, status, matriz);
-        document.getElementById('status').textContent = `Dados carregados: agregados derivados de ${Number(manifest.linhas_origem || 0).toLocaleString('pt-BR')} linhas do hub. Base bruta nao versionada neste repositorio.`;
+        const linhasValidas = Number(manifest.linhas_validas ?? manifest.linhas_origem ?? 0).toLocaleString('pt-BR');
+        const linhasOrigem = Number(manifest.linhas_origem || 0).toLocaleString('pt-BR');
+        const linhasIgnoradas = Number(manifest.linhas_ignoradas_vazias || 0).toLocaleString('pt-BR');
+        document.getElementById('status').textContent = `Dados carregados: agregados derivados de ${linhasValidas} chamados validos. Origem: ${linhasOrigem} linhas no JSON; ${linhasIgnoradas} linhas vazias ignoradas. Base bruta nao versionada neste repositorio.`;
       } catch (err) {
         document.getElementById('status').textContent = `Falha ao carregar dados: ${err.message}`;
       }

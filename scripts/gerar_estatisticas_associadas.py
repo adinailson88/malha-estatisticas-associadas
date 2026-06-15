@@ -53,6 +53,10 @@ def tabela_para_objetos(tabela: list[list[object]]) -> list[dict[str, object]]:
     return rows
 
 
+def id_preenchido(row: dict[str, object]) -> bool:
+    return bool(str(row.get("ID Chamado", "")).strip())
+
+
 def num(v: object) -> float | None:
     if v in (None, ""):
         return None
@@ -115,9 +119,11 @@ def main() -> int:
     except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as exc:
         raise SystemExit(f"Falha ao baixar chamados do hub: {exc}") from exc
 
-    rows = tabela_para_objetos(tabela)
+    rows_origem = tabela_para_objetos(tabela)
+    rows = [row for row in rows_origem if id_preenchido(row)]
     saida = Path(args.saida)
 
+    total_origem = len(rows_origem)
     total = len(rows)
     ids = {str(r.get("ID Chamado", "")).strip() for r in rows if str(r.get("ID Chamado", "")).strip()}
     valores = [num(r.get("VALOR")) or 0.0 for r in rows]
@@ -174,7 +180,9 @@ def main() -> int:
 
     resumo = [
         ["Indicador", "Valor"],
-        ["Total de linhas", total],
+        ["Total de chamados validos", total],
+        ["Linhas origem no JSON", total_origem],
+        ["Linhas vazias ignoradas", total_origem - total],
         ["IDs unicos", len(ids)],
         ["Primeira data", min(datas) if datas else ""],
         ["Ultima data", max(datas) if datas else ""],
@@ -216,12 +224,15 @@ def main() -> int:
         {
             "gerado_em_utc": datetime.now(timezone.utc).isoformat(),
             "fonte": args.url,
-            "linhas_origem": total,
+            "linhas_origem": total_origem,
+            "linhas_validas": total,
+            "linhas_ignoradas_vazias": total_origem - total,
+            "criterio_linha_valida": "ID Chamado preenchido",
             "observacao": "Base bruta nao foi salva neste repositorio; somente agregados derivados.",
         },
     )
 
-    print(f"Estatisticas geradas em {saida} a partir de {total} linhas.")
+    print(f"Estatisticas geradas em {saida} a partir de {total} chamados validos; {total_origem - total} linhas vazias ignoradas.")
     return 0
 
 
