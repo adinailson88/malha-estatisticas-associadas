@@ -1,30 +1,30 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
-Manutenção Preventiva > Ar condicionado split,1766,1249534.55,707.55,0.7547
-Climatização > Ar condicionado,1621,511406.67,315.49,0.8365
-Estrutura Predial > Alvenaria / Pisos / Estrutura,1299,1108169.95,853.09,0.7715
-Hidrossanitária > Hidráulica,1267,191609.36,151.23,0.8104
-Manutenção Preventiva > Gerador,1209,113526.45,93.9,0.9047
-"Estrutura Predial > Esquadrias, porta, portão e janelas",961,168478.26,175.32,0.808
-Elétrica > Instalações elétricas,935,341313.92,365.04,0.8331
-Elétrica > Iluminação,743,664926.73,894.92,0.8409
-Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9036
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,381,36004.19,94.5,0.8038
+Manutenção Preventiva > Ar condicionado split,1772,1249534.55,705.15,0.7557
+Climatização > Ar condicionado,1624,512525.09,315.59,0.8394
+Estrutura Predial > Alvenaria / Pisos / Estrutura,1299,1108169.95,853.09,0.7747
+Hidrossanitária > Hidráulica,1267,191609.36,151.23,0.8117
+Manutenção Preventiva > Gerador,1209,113526.45,93.9,0.9199
+"Estrutura Predial > Esquadrias, porta, portão e janelas",961,169311.88,176.18,0.8094
+Elétrica > Instalações elétricas,935,341313.92,365.04,0.8342
+Elétrica > Iluminação,744,664926.73,893.72,0.8435
+Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9079
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,385,40458.12,105.09,0.8017
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7189
-"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",247,8954.14,36.25,0.7455
+"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",248,9043.12,36.46,0.7444
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.9345
-Outros > Erro de chamado,243,0.0,0.0,0.7658
-Estrutura Predial > Infiltração,211,29942.67,141.91,0.7252
-"Estrutura Predial > Telhados, calhas, rufos, etc.",205,270713.87,1320.56,0.7904
-Manutenção Preventiva > Ar condicionado central,163,117999.54,723.92,0.7553
-Estrutura Predial > Forro,142,217630.25,1532.61,0.7653
+Outros > Erro de chamado,243,0.0,0.0,0.7672
+Estrutura Predial > Infiltração,211,29942.67,141.91,0.7262
+"Estrutura Predial > Telhados, calhas, rufos, etc.",205,270713.87,1320.56,0.7909
+Manutenção Preventiva > Ar condicionado central,163,117999.54,723.92,0.7631
+Estrutura Predial > Forro,142,217946.45,1534.83,0.7664
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.7064
-Elétrica > Nobreak,127,3067.46,24.15,0.7971
-Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.7638
+Elétrica > Nobreak,127,3067.46,24.15,0.7973
+Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.787
 Área Externa e Ambiental > Manutenção área externa / meio ambiente,90,183442.99,2038.26,0.7188
-Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7105
-Projetos e Reformas > Reforma,83,345791.27,4166.16,0.851
+Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7181
+Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8507
 Manutenção Preventiva > Elevador,83,273621.38,3296.64,0.7273
-Manutenção Preventiva > Extintor,59,256209.42,4342.53,0.8181
+Manutenção Preventiva > Extintor,59,256209.42,4342.53,0.819
 Estrutura Predial > Pintura,58,91608.16,1579.45,0.7912
 Instalação de Acessórios e Mobiliário > Placas de identificação,53,20484.94,386.51,0.6772
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",43,1218510.0,28337.44,0.7342
