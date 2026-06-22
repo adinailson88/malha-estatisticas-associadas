@@ -1,13 +1,13 @@
 ﻿Indicador,Valor
-Total de chamados validos,13872
+Total de chamados validos,13874
 Linhas origem no JSON,48418
-Linhas vazias ignoradas,34546
-IDs unicos,13872
+Linhas vazias ignoradas,34544
+IDs unicos,13874
 Primeira data,2015-06-29 10:51
-Ultima data,2026-06-19 13:47
+Ultima data,2026-06-22 00:00
 Valor total R$,19720799.94
-Valor medio R$,1421.63
+Valor medio R$,1421.42
 Chamados com valor positivo,2286
-Confianca media IA,0.8131
+Confianca media IA,0.813
 Campi distintos,5
 Categorias distintas,53
