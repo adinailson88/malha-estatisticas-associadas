@@ -1,10 +1,10 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1772,1249534.55,705.15,0.7557
-Climatização > Ar condicionado,1625,513439.6,315.96,0.8413
+Climatização > Ar condicionado,1627,513439.6,315.57,0.8413
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1299,1108169.95,853.09,0.7773
-Hidrossanitária > Hidráulica,1270,191609.36,150.87,0.8115
+Hidrossanitária > Hidráulica,1272,191609.36,150.64,0.8111
 Manutenção Preventiva > Gerador,1209,113526.45,93.9,0.9243
-"Estrutura Predial > Esquadrias, porta, portão e janelas",965,169423.54,175.57,0.8084
+"Estrutura Predial > Esquadrias, porta, portão e janelas",966,170493.36,176.49,0.8082
 Elétrica > Instalações elétricas,935,341313.92,365.04,0.8348
 Elétrica > Iluminação,744,670160.22,900.75,0.8451
 Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9149
@@ -20,18 +20,18 @@ Estrutura Predial > Forro,143,217946.45,1524.1,0.775
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.7064
 Elétrica > Nobreak,127,3067.46,24.15,0.808
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.787
-Área Externa e Ambiental > Manutenção área externa / meio ambiente,92,183442.99,1993.95,0.7104
+Área Externa e Ambiental > Manutenção área externa / meio ambiente,92,188232.39,2046.0,0.7104
 Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7213
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8534
 Manutenção Preventiva > Elevador,83,273621.38,3296.64,0.7273
 Manutenção Preventiva > Extintor,59,256209.42,4342.53,0.819
 Estrutura Predial > Pintura,58,91608.16,1579.45,0.7912
-Instalação de Acessórios e Mobiliário > Placas de identificação,53,20484.94,386.51,0.6772
+Instalação de Acessórios e Mobiliário > Placas de identificação,53,20596.08,388.61,0.6772
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",44,1218510.0,27693.41,0.7232
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.9347
 Hidrossanitária > Bomba,38,135416.97,3563.6,0.695
 Elétrica > Gerador,37,118609.18,3205.65,0.8586
-Climatização > Ar condicionado central,36,97373.46,2704.82,0.8289
+Climatização > Ar condicionado central,36,98569.34,2738.04,0.8289
 Manutenção Preventiva > Esgoto,33,51009.54,1545.74,0.8091
 Outros > Outros,33,15391.98,466.42,0.7073
 Manutenção Preventiva > Hidráulica,32,4482.55,140.08,0.7831
