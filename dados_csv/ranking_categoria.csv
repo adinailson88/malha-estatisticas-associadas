@@ -1,16 +1,16 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1772,1249534.55,705.15,0.7557
 Climatização > Ar condicionado,1627,513439.6,315.57,0.8413
-Estrutura Predial > Alvenaria / Pisos / Estrutura,1299,1108169.95,853.09,0.7773
+Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1108169.95,852.44,0.7771
 Hidrossanitária > Hidráulica,1272,191609.36,150.64,0.8111
-Manutenção Preventiva > Gerador,1209,113526.45,93.9,0.9243
+Manutenção Preventiva > Gerador,1210,113526.45,93.82,0.9244
 "Estrutura Predial > Esquadrias, porta, portão e janelas",966,170493.36,176.49,0.8082
-Elétrica > Instalações elétricas,935,341313.92,365.04,0.8348
-Elétrica > Iluminação,744,670160.22,900.75,0.8451
+Elétrica > Instalações elétricas,936,341313.92,364.65,0.8343
+Elétrica > Iluminação,745,670160.22,899.54,0.8453
 Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9149
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,387,40458.12,104.54,0.8067
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7189
-"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",254,9043.12,35.6,0.7377
+"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",255,9132.1,35.81,0.7356
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.9345
 Outros > Erro de chamado,243,0.0,0.0,0.7676
 Estrutura Predial > Infiltração,213,29942.67,140.58,0.7225
