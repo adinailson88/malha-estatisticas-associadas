@@ -4,13 +4,13 @@ Climatização > Ar condicionado,1628,513794.2,315.6,0.8414
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1130158.75,869.35,0.7771
 Hidrossanitária > Hidráulica,1272,191609.36,150.64,0.8111
 Manutenção Preventiva > Gerador,1210,116802.55,96.53,0.9244
-"Estrutura Predial > Esquadrias, porta, portão e janelas",967,174967.44,180.94,0.808
+"Estrutura Predial > Esquadrias, porta, portão e janelas",967,174998.82,180.97,0.808
 Elétrica > Instalações elétricas,936,341313.92,364.65,0.8343
 Elétrica > Iluminação,745,670160.22,899.54,0.8453
 Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9149
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,389,40458.12,104.01,0.8041
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7189
-"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",255,9859.4,38.66,0.7356
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",256,9859.4,38.51,0.7341
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.9345
 Outros > Erro de chamado,243,0.0,0.0,0.7676
 Estrutura Predial > Infiltração,213,29942.67,140.58,0.7225
@@ -44,8 +44,8 @@ Hidrossanitária > ETA / ETE,16,113751.94,7109.5,0.6212
 Manutenção Preventiva > Poços artesianos,13,52785.16,4060.4,0.9277
 Manutenção Preventiva > Nobreak,10,0.0,0.0,0.769
 Área Externa e Ambiental > Poda de Árvore / Roçagem,9,2622.28,291.36,0.86
+Manutenção Preventiva > Sistemas de incêndio,9,0.0,0.0,0.2789
 Elétrica > Sistema Fotovoltaico (FV),6,95855.95,15975.99,0.6317
-Manutenção Preventiva > Sistemas de incêndio,4,0.0,0.0,0.325
 "Estrutura Predial > Instalações Especiais (gás, ar comprimido, etc.)",3,266.99,89.0,0.9233
 Área Externa e Ambiental > Drenagem,3,8526.76,2842.25,0.8633
 Manutenção Preventiva > Aplicação cupinicida,3,767.7,255.9,0.9633
