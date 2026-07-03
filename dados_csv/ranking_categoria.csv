@@ -1,26 +1,26 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
-Manutenção Preventiva > Ar condicionado split,1772,1249534.55,705.15,0.7557
-Climatização > Ar condicionado,1627,513439.6,315.57,0.8413
-Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1108169.95,852.44,0.7771
+Manutenção Preventiva > Ar condicionado split,1773,1249534.55,704.76,0.7558
+Climatização > Ar condicionado,1628,513794.2,315.6,0.8414
+Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1130158.75,869.35,0.7771
 Hidrossanitária > Hidráulica,1272,191609.36,150.64,0.8111
-Manutenção Preventiva > Gerador,1210,113526.45,93.82,0.9244
-"Estrutura Predial > Esquadrias, porta, portão e janelas",966,170493.36,176.49,0.8082
+Manutenção Preventiva > Gerador,1210,116802.55,96.53,0.9244
+"Estrutura Predial > Esquadrias, porta, portão e janelas",967,174967.44,180.94,0.808
 Elétrica > Instalações elétricas,936,341313.92,364.65,0.8343
 Elétrica > Iluminação,745,670160.22,899.54,0.8453
 Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9149
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,387,40458.12,104.54,0.8067
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,389,40458.12,104.01,0.8041
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7189
-"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",255,9132.1,35.81,0.7356
+"Instalação de Acessórios e Mobiliário > Instalação/Reparo de Equipamentos, Acessórios e Mobiliários",255,9859.4,38.66,0.7356
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.9345
 Outros > Erro de chamado,243,0.0,0.0,0.7676
 Estrutura Predial > Infiltração,213,29942.67,140.58,0.7225
 "Estrutura Predial > Telhados, calhas, rufos, etc.",205,270713.87,1320.56,0.7926
-Manutenção Preventiva > Ar condicionado central,163,117999.54,723.92,0.7662
+Manutenção Preventiva > Ar condicionado central,165,117999.54,715.15,0.7658
 Estrutura Predial > Forro,143,217946.45,1524.1,0.775
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.7064
 Elétrica > Nobreak,127,3067.46,24.15,0.808
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.787
-Área Externa e Ambiental > Manutenção área externa / meio ambiente,92,188232.39,2046.0,0.7104
+Área Externa e Ambiental > Manutenção área externa / meio ambiente,93,188232.39,2024.0,0.7081
 Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7213
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8534
 Manutenção Preventiva > Elevador,83,273621.38,3296.64,0.7273
