@@ -1,5 +1,5 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
-Manutenção Preventiva > Ar condicionado split,1773,1249534.55,704.76,0.7558
+Manutenção Preventiva > Ar condicionado split,1795,1249534.55,696.12,0.7558
 Climatização > Ar condicionado,1628,513794.2,315.6,0.8414
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1130158.75,869.35,0.7771
 Hidrossanitária > Hidráulica,1272,191609.36,150.64,0.8111
@@ -21,9 +21,9 @@ Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.7064
 Elétrica > Nobreak,127,3067.46,24.15,0.808
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.787
 Área Externa e Ambiental > Manutenção área externa / meio ambiente,93,188232.39,2024.0,0.7081
+Manutenção Preventiva > Elevador,86,273621.38,3181.64,0.7273
 Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7213
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8534
-Manutenção Preventiva > Elevador,83,273621.38,3296.64,0.7273
 Manutenção Preventiva > Extintor,59,256209.42,4342.53,0.819
 Estrutura Predial > Pintura,58,91608.16,1579.45,0.7912
 Instalação de Acessórios e Mobiliário > Placas de identificação,53,20596.08,388.61,0.6772
@@ -50,5 +50,5 @@ Elétrica > Sistema Fotovoltaico (FV),6,95855.95,15975.99,0.6317
 Área Externa e Ambiental > Drenagem,3,8526.76,2842.25,0.8633
 Manutenção Preventiva > Aplicação cupinicida,3,767.7,255.9,0.9633
 Manutenção Preventiva > Bomba,3,4018.68,1339.56,0.7467
+Manutenção Preventiva,2,0.0,0.0,0.95
 Suprimentos / Apoio Técnico > Transporte,1,0.0,0.0,0.37
-Manutenção Preventiva,1,0.0,0.0,0.95
