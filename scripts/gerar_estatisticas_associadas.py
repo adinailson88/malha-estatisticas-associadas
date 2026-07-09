@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,16 +17,51 @@ from urllib.request import Request, urlopen
 
 
 URL_CHAMADOS_PADRAO = "https://raw.githubusercontent.com/adinailson88/malha-ia/main/dados/chamados.json"
+ARQUIVOS_AGREGADOS = [
+    "resumo_geral.json",
+    "serie_mensal.json",
+    "ranking_campus.json",
+    "ranking_categoria.json",
+    "ranking_categoria_raiz.json",
+    "ranking_criticidade.json",
+    "ranking_executor.json",
+    "ranking_status.json",
+    "matriz_campus_categoria.json",
+    "manifest_hub.json",
+]
 
 
-def baixar_json(url: str, timeout: int) -> list[list[object]]:
+def baixar_json(url: str, timeout: int, tentativas: int = 5) -> list[list[object]]:
     req = Request(url, headers={"User-Agent": "malha-estatisticas-associadas/1.0"})
-    with urlopen(req, timeout=timeout) as resp:
-        raw = resp.read().decode("utf-8")
+    ultima_excecao: Exception | None = None
+    for tentativa in range(1, tentativas + 1):
+        try:
+            with urlopen(req, timeout=timeout) as resp:
+                raw = resp.read().decode("utf-8")
+            break
+        except HTTPError as exc:
+            ultima_excecao = exc
+            if exc.code not in (429, 500, 502, 503, 504) or tentativa == tentativas:
+                raise
+        except (URLError, TimeoutError) as exc:
+            ultima_excecao = exc
+            if tentativa == tentativas:
+                raise
+        espera = min(60, 2 ** tentativa)
+        print(f"AVISO tentativa {tentativa}/{tentativas} falhou para {url}: {ultima_excecao}. Nova tentativa em {espera}s.")
+        time.sleep(espera)
+    else:
+        raise RuntimeError(f"Falha ao baixar {url}: {ultima_excecao}")
     dados = json.loads(raw)
     if not isinstance(dados, list) or not dados:
         raise RuntimeError("JSON de chamados nao esta no formato de tabela.")
     return dados
+
+
+def falha_transitoria(exc: Exception) -> bool:
+    if isinstance(exc, HTTPError):
+        return exc.code in (429, 500, 502, 503, 504)
+    return isinstance(exc, (URLError, TimeoutError))
 
 
 def normalizar_header(h: object) -> str:
@@ -89,6 +125,10 @@ def salvar(path: Path, dados: list[list[object]] | dict[str, object]) -> None:
     path.write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+def agregados_existentes(saida: Path) -> bool:
+    return all((saida / nome).exists() for nome in ARQUIVOS_AGREGADOS)
+
+
 def ranking(counter: Counter[str], extra: dict[str, dict[str, float]] | None = None) -> list[list[object]]:
     headers = ["Dimensao", "N_chamados", "Valor_total_R$", "Valor_medio_R$", "Confianca_media"]
     rows = []
@@ -113,15 +153,18 @@ def main() -> int:
     parser.add_argument("--saida", default="dados")
     parser.add_argument("--timeout", type=int, default=120)
     args = parser.parse_args()
+    saida = Path(args.saida)
 
     try:
         tabela = baixar_json(args.url, args.timeout)
     except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as exc:
+        if falha_transitoria(exc) and agregados_existentes(saida):
+            print(f"AVISO Falha transitória ao baixar chamados do hub: {exc}; mantidos agregados locais existentes.")
+            return 0
         raise SystemExit(f"Falha ao baixar chamados do hub: {exc}") from exc
 
     rows_origem = tabela_para_objetos(tabela)
     rows = [row for row in rows_origem if id_preenchido(row)]
-    saida = Path(args.saida)
 
     total_origem = len(rows_origem)
     total = len(rows)
