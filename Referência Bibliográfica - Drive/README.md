@@ -38,6 +38,7 @@ Esta pasta reúne referências do acervo bibliográfico mantido no Google Drive 
 - **Resumo:** O arquivo completo está disponível no Google Drive. O índice identifica a obra pelo título e pelo tema “APO”, mas ainda não contém um resumo analítico completo cadastrado. A síntese detalhada, com citações e páginas, será produzida na próxima etapa; até lá, confirme no documento qualquer método, resultado, número ou conclusão.
 - **Situação da ficha:** Arquivo completo disponível no Drive; resumo analítico completo ainda não cadastrado no índice.
 - **Acesso:** [Abrir o arquivo no Google Drive](https://drive.google.com/file/d/1tg0vxIgNll3R6-WwGBiZRFv73ClGdneB/view?usp=drivesdk)
+- **Ficha detalhada:** [Consultar resumo completo, citações e páginas](https://github.com/adinailson88/lerArquivosReferencias/blob/main/Refer%C3%AAncia%20Bibliogr%C3%A1fica%20-%20Drive/fichas/2002_LIVRO_APO_Insercao_Urbana_APO_Habitacao_Interesse_Social.md)
 
 ### 2. Talib, Y.; Rajagopalan, P.; Yang, R. J. (2013) — Evaluation of building performance for strategic facilities management in healthcare: A case study of a public hospital in Australia
 
