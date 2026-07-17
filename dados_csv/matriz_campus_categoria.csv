@@ -6,26 +6,26 @@ Campus Jorge Amado,Estrutura Predial,824,479585.28
 Campus Sosígenes Costa,Estrutura Predial,784,860944.57
 Campus Paulo Freire,Estrutura Predial,748,329984.72
 Campus Jorge Amado,Elétrica,624,634179.9
-Reitoria,Estrutura Predial,535,245121.14
-Campus Jorge Amado,Climatização,506,145012.85
+Reitoria,Estrutura Predial,536,245121.14
+Campus Jorge Amado,Climatização,507,145012.85
 Reitoria,Manutenção Preventiva,490,394003.53
 Campus Sosígenes Costa,Elétrica,454,604597.2
-Reitoria,Climatização,451,58793.67
+Reitoria,Climatização,452,58793.67
 Campus Jorge Amado,Hidrossanitária,438,117517.87
-Campus Paulo Freire,Elétrica,430,129175.33
+Campus Paulo Freire,Elétrica,431,129175.33
 Campus Sosígenes Costa,Climatização,390,253565.82
-Campus Paulo Freire,Hidrossanitária,370,32742.57
-Reitoria,Elétrica,368,15176.62
+Campus Paulo Freire,Hidrossanitária,371,32742.57
+Reitoria,Elétrica,368,15226.12
 Campus Paulo Freire,Climatização,320,154991.2
 Campus Sosígenes Costa,Hidrossanitária,309,278883.07
 Reitoria,Hidrossanitária,212,14542.76
 Reitoria,TI / Dados / Rede,134,9738.18
+Campus Jorge Amado,Instalação de Acessórios e Mobiliário,116,4159.24
 Campus Sosígenes Costa,TI / Dados / Rede,116,13885.15
-Campus Jorge Amado,Instalação de Acessórios e Mobiliário,114,4159.24
-Campus Paulo Freire,Instalação de Acessórios e Mobiliário,113,6631.68
-Campus Jorge Amado,TI / Dados / Rede,109,11241.9
+Campus Paulo Freire,Instalação de Acessórios e Mobiliário,114,6631.68
+Campus Jorge Amado,TI / Dados / Rede,110,11241.9
+Campus Paulo Freire,TI / Dados / Rede,78,5592.89
 Campus Jorge Amado,Outros,77,380.68
-Campus Paulo Freire,TI / Dados / Rede,77,5592.89
 Campus Paulo Freire,Outros,73,13168.2
 Campus Sosígenes Costa,Outros,67,1449.05
 Campus Jorge Amado,Área Externa e Ambiental,56,86085.29
@@ -55,5 +55,6 @@ Reitoria,Área Externa e Ambiental,6,2726.83
 Campus Maria Felipa - Jequié,Outros,4,0.0
 Reitoria,Segurança contra Incêndio,3,743.22
 Campus Maria Felipa - Jequié,Climatização,1,0.0
+Campus Maria Felipa - Jequié,Estrutura Predial,1,0.0
 Campus Maria Felipa - Jequié,TI / Dados / Rede,1,0.0
 Campus Paulo Freire,Equipamentos de Transporte,1,0.0
