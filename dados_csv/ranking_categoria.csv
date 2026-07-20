@@ -1,26 +1,26 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1795,1249534.55,696.12,0.7575
-Climatização > Ar condicionado split,1634,513794.2,314.44,0.8413
+Climatização > Ar condicionado split,1635,513794.2,314.25,0.8414
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1300,1130158.75,869.35,0.7771
-Hidrossanitária > Hidráulica,1276,191609.36,150.16,0.8105
-Manutenção Preventiva > Gerador,1211,116802.55,96.45,0.9244
+Hidrossanitária > Hidráulica,1278,191609.36,149.93,0.8102
+Manutenção Preventiva > Gerador,1211,121865.41,100.63,0.9244
 "Estrutura Predial > Esquadrias, porta, portão e janelas",969,174998.82,180.6,0.8072
 Elétrica > Instalações elétricas,940,341313.92,363.1,0.8328
-Elétrica > Iluminação,747,670160.22,897.14,0.8448
+Elétrica > Iluminação,748,670160.22,895.94,0.845
 Manutenção Preventiva > Quadros Elétricos,576,4649.96,8.07,0.9149
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,399,40458.12,101.4,0.7917
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7189
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",262,10501.52,40.08,0.7303
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",263,10501.52,39.93,0.7306
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.9345
 Outros > Erro de chamado,243,0.0,0.0,0.7676
-Estrutura Predial > Infiltração,213,29942.67,140.58,0.7225
+Estrutura Predial > Infiltração,214,29942.67,139.92,0.72
 "Estrutura Predial > Telhados, calhas, rufos, etc.",206,270713.87,1314.15,0.7895
 Manutenção Preventiva > Ar condicionado central,165,117999.54,715.15,0.7658
 Estrutura Predial > Forro,144,217946.45,1513.52,0.7715
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.7064
 Elétrica > Nobreak,127,3067.46,24.15,0.808
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.787
-Área Externa e Ambiental > Manutenção área externa / meio ambiente,94,189166.59,2012.41,0.7018
+Área Externa e Ambiental > Manutenção área externa / meio ambiente,95,189166.59,1991.23,0.6977
 Manutenção Preventiva > Elevador,86,273621.38,3181.64,0.7343
 Suprimentos / Apoio Técnico > Materiais,85,241696.0,2843.48,0.7213
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8534
