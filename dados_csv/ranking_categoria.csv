@@ -5,11 +5,11 @@ Estrutura Predial > Alvenaria / Pisos / Estrutura,1303,1136627.83,872.32,0.7605
 Hidrossanitária > Hidráulica,1286,202830.71,157.72,0.7922
 Manutenção Preventiva > Gerador,1215,121865.41,100.3,0.9709
 "Estrutura Predial > Esquadrias, porta, portão e janelas",977,174998.82,179.12,0.7762
-Elétrica > Instalações elétricas,946,341313.92,360.8,0.7956
+Elétrica > Instalações elétricas,947,341313.92,360.42,0.7957
 Elétrica > Iluminação,759,672333.72,885.82,0.8238
-Manutenção Preventiva > Quadros Elétricos,579,4649.96,8.03,0.9774
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,407,42034.64,103.28,0.716
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",294,14051.42,47.79,0.6716
+Manutenção Preventiva > Quadros Elétricos,579,4766.27,8.23,0.9774
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,408,42034.64,103.03,0.7148
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",295,14051.42,47.63,0.6721
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7297
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.926
 Outros > Erro de chamado,245,0.0,0.0,0.6906
@@ -19,20 +19,20 @@ Manutenção Preventiva > Ar condicionado central,167,117999.54,706.58,0.8586
 Estrutura Predial > Forro,147,228232.37,1552.6,0.7552
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.8283
 Elétrica > Nobreak,128,3067.46,23.96,0.7837
-Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,109,208012.13,1908.37,0.6689
+Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,112,208012.13,1857.25,0.6622
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.8167
 Manutenção Preventiva > Elevador,89,273621.38,3074.4,0.7429
 Suprimentos / Apoio Técnico > Materiais,85,242647.36,2854.67,0.6862
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8548
 "Manutenção Preventiva > Sistemas de combate a incêndio (extintores, hidrantes)",66,272948.93,4135.59,0.8138
 Estrutura Predial > Pintura,58,91608.16,1579.45,0.676
-Instalação de Acessórios e Mobiliário > Placas de identificação,54,20707.22,383.47,0.7169
+Instalação de Acessórios e Mobiliário > Placas de identificação,54,20596.08,381.41,0.7169
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",43,1218510.0,28337.44,0.6258
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.7983
 Hidrossanitária > Bomba,39,135449.28,3473.06,0.6392
 Elétrica > Gerador,38,121236.68,3190.44,0.7829
 Climatização > Ar condicionado central,37,104398.43,2821.58,0.8019
-Manutenção Preventiva > Esgoto,34,51009.54,1500.28,0.8494
+Manutenção Preventiva > Esgoto,34,56816.24,1671.07,0.8494
 Outros > Outros,33,15391.98,466.42,0.6579
 Manutenção Preventiva > Hidráulica,32,4482.55,140.08,0.8228
 "Segurança contra Incêndio > Sistemas de combate a incêndio (extintores, hidrantes)",29,27076.0,933.66,0.7421
