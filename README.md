@@ -3,7 +3,7 @@
 Repositorio do eixo de estatisticas associadas do ecossistema Malha IA. O objetivo e separar analises descritivas, rankings, associacoes e agregados derivados dos chamados de manutencao predial, sem duplicar a base bruta `CHAMADOS`.
 
 Repositorio-hub de dados: [adinailson88/malha-ia](https://github.com/adinailson88/malha-ia)  
-Dashboard previsto: `https://adinailson88.github.io/malha-estatisticas-associadas/`
+Dashboard publicado: `https://adinailson88.github.io/malha-estatisticas-associadas/`
 
 ## Escopo
 
@@ -27,6 +27,7 @@ Ficam fora deste repositorio:
 4. `dados/*.json`: snapshots agregados.
 5. `dados_csv/*.csv`: tabelas derivadas para auditoria e artigo.
 6. `docs/CONTRATO_DADOS.md`: fronteira, tabelas e metodo de geracao.
+7. `.github/workflows/atualizar-estatisticas.yml`: atualiza periodicamente as estatisticas e CSVs agregados a partir do hub, alem de permitir execucao manual.
 
 ## Execucao local
 
