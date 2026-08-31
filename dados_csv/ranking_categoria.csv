@@ -1,15 +1,15 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1819,1249534.55,686.93,0.824
-Climatização > Ar condicionado split,1653,522521.89,316.11,0.7999
+Climatização > Ar condicionado split,1654,522521.89,315.91,0.7998
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1306,1138267.83,871.57,0.7698
 Hidrossanitária > Hidráulica,1295,203842.28,157.41,0.7935
-Manutenção Preventiva > Gerador,1215,121865.41,100.3,0.9664
+Manutenção Preventiva > Gerador,1216,121865.41,100.22,0.9659
 "Estrutura Predial > Esquadrias, porta, portão e janelas",983,175936.12,178.98,0.7756
 Elétrica > Instalações elétricas,957,341342.39,356.68,0.8028
 Elétrica > Iluminação,761,672369.89,883.53,0.8184
 Manutenção Preventiva > Quadros Elétricos,579,4766.27,8.23,0.9722
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,420,42944.0,102.25,0.7362
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",308,14051.42,45.62,0.7116
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",309,14051.42,45.47,0.7106
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7037
 Outros > Erro de chamado,247,0.0,0.0,0.7222
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.937
@@ -18,7 +18,7 @@ Estrutura Predial > Infiltração,221,29942.67,135.49,0.7286
 Manutenção Preventiva > Ar condicionado central,167,117999.54,706.58,0.7895
 Estrutura Predial > Forro,150,228232.37,1521.55,0.7567
 Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.8196
-Elétrica > Nobreak,129,3067.46,23.78,0.7661
+Elétrica > Nobreak,130,3067.46,23.6,0.7661
 Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,116,219485.81,1892.12,0.6798
 Posto de trabalho > Contratação de Posto de trabalho,102,10544445.55,103376.92,0.7386
 Manutenção Preventiva > Elevador,89,273621.38,3074.4,0.651
@@ -26,7 +26,7 @@ Suprimentos / Apoio Técnico > Materiais,86,242647.36,2821.48,0.6762
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8548
 "Manutenção Preventiva > Sistemas de combate a incêndio (extintores, hidrantes)",66,288951.3,4378.05,0.775
 Estrutura Predial > Pintura,58,91608.16,1579.45,0.8034
-Instalação de Acessórios e Mobiliário > Placas de identificação,55,21086.76,383.4,0.6822
+Instalação de Acessórios e Mobiliário > Placas de identificação,56,21086.76,376.55,0.6748
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",43,1218510.0,28337.44,0.6758
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.7833
 Hidrossanitária > Bomba,39,136023.89,3487.79,0.6977
