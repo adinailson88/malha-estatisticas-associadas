@@ -1,17 +1,17 @@
 ﻿Campus,Categoria_raiz,N_chamados,Valor_total_R$
-Campus Sosígenes Costa,Manutenção Preventiva,1829,1902587.92
-Campus Paulo Freire,Manutenção Preventiva,1494,665270.31
-Campus Jorge Amado,Manutenção Preventiva,918,1005588.85
+Campus Sosígenes Costa,Manutenção Preventiva,1839,1902587.92
+Campus Paulo Freire,Manutenção Preventiva,1503,665270.31
+Campus Jorge Amado,Manutenção Preventiva,928,1005588.85
 Campus Jorge Amado,Estrutura Predial,834,479720.16
 Campus Sosígenes Costa,Estrutura Predial,801,872752.65
 Campus Paulo Freire,Estrutura Predial,759,339647.92
-Campus Jorge Amado,Elétrica,633,654052.52
+Campus Jorge Amado,Elétrica,634,654052.52
 Reitoria,Estrutura Predial,539,245121.14
 Campus Jorge Amado,Climatização,513,149354.32
-Reitoria,Manutenção Preventiva,496,394003.53
+Reitoria,Manutenção Preventiva,497,394003.53
 Campus Sosígenes Costa,Elétrica,458,607720.18
 Reitoria,Climatização,456,58793.67
-Campus Jorge Amado,Hidrossanitária,452,118194.23
+Campus Jorge Amado,Hidrossanitária,453,118194.23
 Campus Paulo Freire,Elétrica,450,131802.83
 Campus Sosígenes Costa,Climatização,399,255358.71
 Campus Paulo Freire,Hidrossanitária,373,33331.8
@@ -20,15 +20,15 @@ Campus Paulo Freire,Climatização,328,165094.78
 Campus Sosígenes Costa,Hidrossanitária,314,290439.63
 Reitoria,Hidrossanitária,217,14560.45
 Reitoria,TI / Dados / Rede,136,9738.18
-Campus Paulo Freire,Instalação de Acessórios e Mobiliário,133,7011.22
-Campus Jorge Amado,Instalação de Acessórios e Mobiliário,130,7417.06
+Campus Paulo Freire,Instalação de Acessórios e Mobiliário,134,7011.22
+Campus Jorge Amado,Instalação de Acessórios e Mobiliário,131,7417.06
 Campus Sosígenes Costa,TI / Dados / Rede,120,14455.92
 Campus Jorge Amado,TI / Dados / Rede,119,13157.01
 Campus Paulo Freire,TI / Dados / Rede,86,5592.89
 Campus Jorge Amado,Outros,79,380.68
 Campus Paulo Freire,Outros,77,13168.2
 Campus Sosígenes Costa,Outros,68,1823.02
-Campus Jorge Amado,Área Externa e Ambiental,64,103641.21
+Campus Jorge Amado,Área Externa e Ambiental,65,103641.21
 Reitoria,Instalação de Acessórios e Mobiliário,62,5933.11
 Reitoria,Outros,55,394.05
 Campus Sosígenes Costa,Instalação de Acessórios e Mobiliário,46,15161.84
