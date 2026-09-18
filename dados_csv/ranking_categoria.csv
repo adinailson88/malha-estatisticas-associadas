@@ -1,23 +1,23 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1840,1249534.55,679.09,0.8241
-Climatização > Ar condicionado split,1663,525854.64,316.21,0.7995
+Climatização > Ar condicionado split,1666,533123.81,320.0,0.7998
 Hidrossanitária > Hidráulica,1311,203985.32,155.6,0.7907
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1307,1138267.83,870.9,0.7695
 Manutenção Preventiva > Gerador,1216,121865.41,100.22,0.9659
-"Estrutura Predial > Esquadrias, porta, portão e janelas",989,175936.12,177.89,0.7746
-Elétrica > Instalações elétricas,959,341342.39,355.94,0.802
+"Estrutura Predial > Esquadrias, porta, portão e janelas",992,175936.12,177.35,0.7738
+Elétrica > Instalações elétricas,961,341342.39,355.19,0.8009
 Elétrica > Iluminação,764,735714.92,962.98,0.818
 Manutenção Preventiva > Quadros Elétricos,579,4766.27,8.23,0.9722
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,426,42944.0,100.81,0.7306
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",323,14051.42,43.5,0.6973
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,426,42944.0,100.81,0.7307
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",325,14051.42,43.24,0.695
 Manutenção Preventiva > Reservatório,280,4007.99,14.31,0.7019
-Outros > Erro de chamado,247,0.0,0.0,0.7222
+Outros > Erro de chamado,249,0.0,0.0,0.7183
 Manutenção Preventiva > Vistoria em Instalações,247,539290.75,2183.36,0.937
 Estrutura Predial > Infiltração,223,29942.67,134.27,0.7256
 "Estrutura Predial > Telhados, calhas, rufos, etc.",210,272987.73,1299.94,0.782
 Manutenção Preventiva > Ar condicionado central,169,117999.54,698.22,0.7863
 Estrutura Predial > Forro,153,228232.37,1491.71,0.7481
-Manutenção Preventiva > Iluminação,132,30033.09,227.52,0.8196
+Manutenção Preventiva > Iluminação,135,30033.09,222.47,0.8139
 Elétrica > Nobreak,130,3067.46,23.6,0.7618
 Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,121,214824.35,1775.41,0.6658
 Posto de trabalho > Contratação de Posto de trabalho,102,10637058.98,104284.89,0.7386
@@ -29,13 +29,13 @@ Estrutura Predial > Pintura,59,91608.16,1552.68,0.7924
 Instalação de Acessórios e Mobiliário > Placas de identificação,57,21754.44,381.66,0.6661
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",43,1218510.0,28337.44,0.6758
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.7833
-Climatização > Ar condicionado central,40,104398.43,2609.96,0.8423
 Hidrossanitária > Bomba,39,136023.89,3487.79,0.6977
+Climatização > Ar condicionado central,39,104398.43,2676.88,0.8395
 Elétrica > Gerador,38,124331.19,3271.87,0.7795
 Outros > Outros,35,15391.98,439.77,0.6677
 Manutenção Preventiva > Esgoto,34,56816.24,1671.07,0.875
+"Segurança contra Incêndio > Sistemas de combate a incêndio (extintores, hidrantes)",33,27076.0,820.48,0.7512
 Manutenção Preventiva > Hidráulica,33,4482.55,135.83,0.7858
-"Segurança contra Incêndio > Sistemas de combate a incêndio (extintores, hidrantes)",31,27076.0,873.42,0.7765
 Projetos e Reformas > Projeto,25,18223.67,728.95,0.8708
 Equipamentos de Transporte > Elevador,24,26816.18,1117.34,0.6463
 Manutenção Preventiva > Poços artesianos,20,52785.16,2639.26,0.424
