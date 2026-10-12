@@ -1,14 +1,14 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1861,1249534.55,671.43,0.8236
-Climatização > Ar condicionado split,1682,537632.46,319.64,0.8008
-Hidrossanitária > Hidráulica,1330,206401.7,155.19,0.7863
-Estrutura Predial > Alvenaria / Pisos / Estrutura,1310,1108966.33,846.54,0.7678
+Climatização > Ar condicionado split,1685,537632.46,319.07,0.8011
+Hidrossanitária > Hidráulica,1332,206401.7,154.96,0.7859
+Estrutura Predial > Alvenaria / Pisos / Estrutura,1310,1108966.33,846.54,0.7676
 Manutenção Preventiva > Gerador,1216,128763.37,105.89,0.9659
 "Estrutura Predial > Esquadrias, porta, portão e janelas",1001,181483.21,181.3,0.7717
 Elétrica > Instalações elétricas,967,341738.75,353.4,0.7963
 Elétrica > Iluminação,769,740020.92,962.32,0.8181
 Manutenção Preventiva > Quadros Elétricos,580,4766.27,8.22,0.9722
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,429,58027.22,135.26,0.7296
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,430,58027.22,134.95,0.7289
 "Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",340,13522.72,39.77,0.685
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7037
 Outros > Erro de chamado,257,0.0,0.0,0.7057
@@ -19,7 +19,7 @@ Manutenção Preventiva > Ar condicionado central,171,117999.54,690.06,0.7844
 Estrutura Predial > Forro,153,228232.37,1491.71,0.7481
 Manutenção Preventiva > Iluminação,136,30754.41,226.14,0.8079
 Elétrica > Nobreak,131,3067.46,23.42,0.7606
-Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,120,214321.95,1786.02,0.6619
+Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,120,220376.79,1836.47,0.6619
 Posto de trabalho > Contratação de Posto de trabalho,102,10637058.98,104284.89,0.7386
 Manutenção Preventiva > Elevador,95,273621.38,2880.23,0.6573
 Suprimentos / Apoio Técnico > Materiais,88,242647.36,2757.36,0.6637
