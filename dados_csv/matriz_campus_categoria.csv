@@ -9,12 +9,12 @@ Campus Jorge Amado,Elétrica,643,687827.86
 Reitoria,Estrutura Predial,540,247440.14
 Campus Jorge Amado,Climatização,518,152794.07
 Reitoria,Manutenção Preventiva,504,394003.53
-Campus Jorge Amado,Hidrossanitária,472,118914.74
-Campus Sosígenes Costa,Elétrica,463,637096.07
+Campus Jorge Amado,Hidrossanitária,473,118914.74
+Campus Sosígenes Costa,Elétrica,464,637096.07
 Reitoria,Climatização,463,58911.53
-Campus Paulo Freire,Elétrica,453,131802.83
-Campus Sosígenes Costa,Climatização,410,255358.71
-Campus Paulo Freire,Hidrossanitária,380,35331.82
+Campus Paulo Freire,Elétrica,454,131802.83
+Campus Sosígenes Costa,Climatização,411,255358.71
+Campus Paulo Freire,Hidrossanitária,380,35526.3
 Reitoria,Elétrica,372,20122.28
 Campus Paulo Freire,Climatização,332,174966.58
 Campus Sosígenes Costa,Hidrossanitária,319,291344.9
@@ -22,9 +22,9 @@ Reitoria,Hidrossanitária,219,14560.45
 Campus Paulo Freire,Instalação de Acessórios e Mobiliário,142,7255.16
 Campus Jorge Amado,Instalação de Acessórios e Mobiliário,141,6755.56
 Reitoria,TI / Dados / Rede,136,9738.18
-Campus Jorge Amado,TI / Dados / Rede,123,28240.23
-Campus Sosígenes Costa,TI / Dados / Rede,122,14455.92
-Campus Paulo Freire,TI / Dados / Rede,87,5592.89
+Campus Jorge Amado,TI / Dados / Rede,124,28240.23
+Campus Sosígenes Costa,TI / Dados / Rede,124,14455.92
+Campus Paulo Freire,TI / Dados / Rede,88,5592.89
 Campus Jorge Amado,Outros,83,380.68
 Campus Paulo Freire,Outros,82,13168.2
 Campus Sosígenes Costa,Outros,69,1449.05
@@ -38,9 +38,9 @@ Campus Jorge Amado,Suprimentos / Apoio Técnico,31,38233.48
 Campus Sosígenes Costa,Posto de trabalho,31,4320078.46
 Campus Paulo Freire,Área Externa e Ambiental,29,57535.04
 Campus Paulo Freire,Suprimentos / Apoio Técnico,28,41325.78
+Campus Sosígenes Costa,Área Externa e Ambiental,26,65741.75
 Reitoria,Projetos e Reformas,26,20460.06
 Campus Sosígenes Costa,Suprimentos / Apoio Técnico,25,102489.21
-Campus Sosígenes Costa,Área Externa e Ambiental,25,65741.75
 Campus Jorge Amado,Projetos e Reformas,23,162097.27
 Campus Paulo Freire,Posto de trabalho,21,1638178.92
 Reitoria,Suprimentos / Apoio Técnico,21,81876.76
