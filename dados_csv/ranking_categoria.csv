@@ -1,17 +1,17 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1861,1284544.37,690.24,0.8236
-Climatização > Ar condicionado split,1692,537632.46,317.75,0.8014
-Hidrossanitária > Hidráulica,1335,206596.18,154.75,0.7859
-Estrutura Predial > Alvenaria / Pisos / Estrutura,1310,1108966.33,846.54,0.7676
+Climatização > Ar condicionado split,1695,540177.69,318.69,0.8016
+Hidrossanitária > Hidráulica,1335,206813.98,154.92,0.7859
+Estrutura Predial > Alvenaria / Pisos / Estrutura,1312,1108966.33,845.25,0.7672
 Manutenção Preventiva > Gerador,1216,128763.37,105.89,0.9659
-"Estrutura Predial > Esquadrias, porta, portão e janelas",1003,188536.34,187.97,0.7713
-Elétrica > Instalações elétricas,968,343994.7,355.37,0.7958
+"Estrutura Predial > Esquadrias, porta, portão e janelas",1006,188536.34,187.41,0.7714
+Elétrica > Instalações elétricas,969,343994.7,355.0,0.7959
 Elétrica > Iluminação,769,740020.92,962.32,0.8181
 Manutenção Preventiva > Quadros Elétricos,580,4766.27,8.22,0.9722
-TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,435,68205.96,156.8,0.7256
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",341,13522.72,39.66,0.6847
+TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,437,68205.96,156.08,0.7237
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",345,13522.72,39.2,0.6826
 Manutenção Preventiva > Reservatório,279,3850.46,13.8,0.7037
-Manutenção Preventiva > Vistoria em Instalações,259,539290.75,2082.2,0.9157
+Manutenção Preventiva > Vistoria em Instalações,268,539290.75,2012.28,0.8927
 Outros > Erro de chamado,257,0.0,0.0,0.7057
 Estrutura Predial > Infiltração,225,29942.67,133.08,0.7216
 "Estrutura Predial > Telhados, calhas, rufos, etc.",211,280961.93,1331.57,0.778
@@ -22,12 +22,12 @@ Elétrica > Nobreak,132,3067.46,23.24,0.759
 Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,123,226448.94,1841.05,0.6515
 Posto de trabalho > Contratação de Posto de trabalho,102,10637058.98,104284.89,0.7386
 Manutenção Preventiva > Elevador,95,273621.38,2880.23,0.6573
-Suprimentos / Apoio Técnico > Materiais,88,242647.36,2757.36,0.6637
+Suprimentos / Apoio Técnico > Materiais,88,247169.72,2808.75,0.6637
 Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8548
 "Manutenção Preventiva > Sistemas de combate a incêndio (extintores, hidrantes)",66,290978.39,4408.76,0.775
 Estrutura Predial > Pintura,61,91608.16,1501.77,0.7761
 Instalação de Acessórios e Mobiliário > Placas de identificação,58,22268.68,383.94,0.6586
-"Manutenção Preventiva > Telhados, calhas, rufos, etc.",43,1218510.0,28337.44,0.6758
+"Manutenção Preventiva > Telhados, calhas, rufos, etc.",44,1218510.0,27693.41,0.6682
 Hidrossanitária > Bomba,40,136587.87,3414.7,0.6838
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.7833
 Elétrica > Gerador,39,124331.19,3187.98,0.7738
