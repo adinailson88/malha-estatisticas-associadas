@@ -1,7 +1,6 @@
 ﻿Executor,N_chamados
-LSTM_BAIXA_CONF,5902
+LSTM_BAIXA_CONF,5920
 Reclass_LSTM,4744
 LSTM,3796
 RF_Fallback_BAIXA_CONF,90
 SemClassificador,12
-Sem executor,3
