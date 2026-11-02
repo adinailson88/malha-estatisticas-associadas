@@ -1,10 +1,10 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1861,1284544.37,690.24,0.8236
 Climatização > Ar condicionado split,1695,540797.72,319.05,0.8017
-Hidrossanitária > Hidráulica,1335,206813.98,154.92,0.7866
+Hidrossanitária > Hidráulica,1336,206813.98,154.8,0.7866
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1310,1108966.33,846.54,0.7673
 Manutenção Preventiva > Gerador,1217,128763.37,105.8,0.9654
-"Estrutura Predial > Esquadrias, porta, portão e janelas",1006,188864.46,187.74,0.7714
+"Estrutura Predial > Esquadrias, porta, portão e janelas",1006,189459.29,188.33,0.7714
 Elétrica > Instalações elétricas,970,343994.7,354.63,0.7961
 Elétrica > Iluminação,769,740020.92,962.32,0.8181
 Manutenção Preventiva > Quadros Elétricos,580,4766.27,8.22,0.9722
@@ -16,7 +16,7 @@ Outros > Erro de chamado,257,0.0,0.0,0.7057
 Estrutura Predial > Infiltração,227,29942.67,131.91,0.7209
 "Estrutura Predial > Telhados, calhas, rufos, etc.",212,280961.93,1325.29,0.776
 Manutenção Preventiva > Ar condicionado central,171,117999.54,690.06,0.7844
-Manutenção Preventiva > Iluminação,158,30754.41,194.65,0.8307
+Manutenção Preventiva > Iluminação,158,30963.3,195.97,0.8307
 Estrutura Predial > Forro,153,228232.37,1491.71,0.7481
 Elétrica > Nobreak,132,3067.46,23.24,0.759
 Área Externa e Ambiental > Manutenção área externa / meio ambiente / Poda de árvore / Roçagem,123,226448.94,1841.05,0.6515
@@ -28,7 +28,7 @@ Projetos e Reformas > Reforma,83,345791.27,4166.16,0.8548
 Estrutura Predial > Pintura,61,91608.16,1501.77,0.7761
 Instalação de Acessórios e Mobiliário > Placas de identificação,58,22268.68,383.94,0.6586
 "Manutenção Preventiva > Telhados, calhas, rufos, etc.",44,1218510.0,27693.41,0.6682
-Elétrica > Gerador,40,124331.19,3108.28,0.77
+Elétrica > Gerador,40,140606.55,3515.16,0.77
 Hidrossanitária > Bomba,40,136587.87,3414.7,0.6838
 TI / Dados / Rede > Coleta de dados,40,0.0,0.0,0.7833
 Climatização > Ar condicionado central,40,104398.43,2609.96,0.8293
@@ -39,7 +39,7 @@ Manutenção Preventiva > Hidráulica,34,4482.55,131.84,0.77
 Projetos e Reformas > Projeto,25,18223.67,728.95,0.8708
 Equipamentos de Transporte > Elevador,24,26816.18,1117.34,0.6463
 Manutenção Preventiva > Poços artesianos,20,62749.74,3137.49,0.424
-Elétrica > Subestação,18,154072.82,8559.6,0.6961
+Elétrica > Subestação,19,156569.67,8240.51,0.6853
 Hidrossanitária > ETA / ETE,18,117162.34,6509.02,0.5744
 "Suprimentos / Apoio Técnico > Limpeza de equipamentos, ambiente e mobiliário",16,21277.87,1329.87,0.6062
 Manutenção Preventiva > Nobreak,11,0.0,0.0,0.6227
