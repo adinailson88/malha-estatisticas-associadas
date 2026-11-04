@@ -2,5 +2,6 @@
 LSTM_BAIXA_CONF,5921
 Reclass_LSTM,4744
 LSTM,3796
-RF_Fallback_BAIXA_CONF,107
+RF_Fallback_BAIXA_CONF,113
 SemClassificador,12
+Sem executor,4
