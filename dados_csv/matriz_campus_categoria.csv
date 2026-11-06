@@ -1,29 +1,29 @@
 ﻿Campus,Categoria_raiz,N_chamados,Valor_total_R$
-Campus Sosígenes Costa,Manutenção Preventiva,1884,1919292.93
-Campus Paulo Freire,Manutenção Preventiva,1587,666095.22
-Campus Jorge Amado,Manutenção Preventiva,956,1042731.06
-Campus Jorge Amado,Estrutura Predial,845,488556.83
-Campus Sosígenes Costa,Estrutura Predial,808,850936.21
-Campus Paulo Freire,Estrutura Predial,773,342466.3
+Campus Sosígenes Costa,Manutenção Preventiva,1898,1919292.93
+Campus Paulo Freire,Manutenção Preventiva,1598,666095.22
+Campus Jorge Amado,Manutenção Preventiva,961,1042731.06
+Campus Jorge Amado,Estrutura Predial,846,488556.83
+Campus Sosígenes Costa,Estrutura Predial,809,850936.21
+Campus Paulo Freire,Estrutura Predial,774,342466.3
 Campus Jorge Amado,Elétrica,643,687827.86
-Reitoria,Estrutura Predial,541,247440.14
-Reitoria,Manutenção Preventiva,512,394003.53
-Campus Jorge Amado,Climatização,507,152855.33
-Campus Jorge Amado,Hidrossanitária,471,118914.74
-Campus Sosígenes Costa,Elétrica,465,660169.07
+Reitoria,Estrutura Predial,542,249714.46
+Reitoria,Manutenção Preventiva,513,394003.53
+Campus Jorge Amado,Climatização,510,152855.33
+Campus Jorge Amado,Hidrossanitária,473,118914.74
+Campus Sosígenes Costa,Elétrica,466,660169.07
 Reitoria,Climatização,465,58911.53
-Campus Paulo Freire,Elétrica,456,154459.29
-Campus Sosígenes Costa,Climatização,388,257671.62
-Campus Paulo Freire,Hidrossanitária,383,35782.36
+Campus Paulo Freire,Elétrica,458,154459.29
+Campus Sosígenes Costa,Climatização,389,257671.62
+Campus Paulo Freire,Hidrossanitária,384,35835.84
 Reitoria,Elétrica,373,20122.28
 Campus Sosígenes Costa,Hidrossanitária,320,291344.9
-Campus Paulo Freire,Climatização,305,177511.81
-Reitoria,Hidrossanitária,223,14560.45
+Campus Paulo Freire,Climatização,306,180034.4
+Reitoria,Hidrossanitária,223,14649.43
 Campus Jorge Amado,Instalação de Acessórios e Mobiliário,147,6755.56
 Campus Paulo Freire,Instalação de Acessórios e Mobiliário,147,7255.16
 Reitoria,TI / Dados / Rede,139,9738.18
 Campus Sosígenes Costa,TI / Dados / Rede,128,14455.92
-Campus Jorge Amado,TI / Dados / Rede,124,38418.97
+Campus Jorge Amado,TI / Dados / Rede,125,38418.97
 Campus Paulo Freire,TI / Dados / Rede,89,5592.89
 Campus Jorge Amado,Outros,83,380.68
 Campus Paulo Freire,Outros,82,13168.2
@@ -34,9 +34,9 @@ Reitoria,Outros,55,394.05
 Campus Sosígenes Costa,Instalação de Acessórios e Mobiliário,49,15161.84
 Campus Sosígenes Costa,Projetos e Reformas,45,158837.14
 Campus Jorge Amado,Posto de trabalho,32,3312419.33
+Campus Paulo Freire,Área Externa e Ambiental,31,63607.19
 Campus Sosígenes Costa,Posto de trabalho,31,4320078.46
 Campus Jorge Amado,Suprimentos / Apoio Técnico,30,38233.48
-Campus Paulo Freire,Área Externa e Ambiental,30,63607.19
 Campus Paulo Freire,Suprimentos / Apoio Técnico,28,45848.14
 Campus Sosígenes Costa,Área Externa e Ambiental,26,65741.75
 Reitoria,Projetos e Reformas,26,20460.06
