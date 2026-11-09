@@ -1,7 +1,7 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Fechado,13844,19522008.97,1410.14,0.8123
 Solucionado,568,364045.35,640.92,0.6318
-Processando (atribuído),186,174845.43,940.03,0.5542
-Novo,16,0.0,0.0,0.5331
+Processando (atribuído),186,177795.42,955.89,0.5542
+Novo,16,1082.87,67.68,0.5331
 Pendente,14,136144.4,9724.6,0.675
 Processando (planejado),10,67597.35,6759.74,0.582
