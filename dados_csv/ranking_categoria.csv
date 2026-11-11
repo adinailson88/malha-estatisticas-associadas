@@ -1,11 +1,11 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1954,1284544.37,657.39,0.8289
-Climatização > Ar condicionado split,1630,545074.45,334.4,0.7935
+Climatização > Ar condicionado split,1630,546371.25,335.2,0.7935
 Hidrossanitária > Hidráulica,1342,207039.19,154.28,0.7852
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1305,1108928.07,849.75,0.7665
 Manutenção Preventiva > Gerador,1217,128763.37,105.8,0.9654
-"Estrutura Predial > Esquadrias, porta, portão e janelas",1012,192816.48,190.53,0.7717
-Elétrica > Instalações elétricas,971,344448.7,354.74,0.796
+"Estrutura Predial > Esquadrias, porta, portão e janelas",1012,194744.01,192.43,0.7717
+Elétrica > Instalações elétricas,971,344476.63,354.76,0.796
 Elétrica > Iluminação,771,763093.92,989.75,0.8175
 Manutenção Preventiva > Quadros Elétricos,580,4766.27,8.22,0.9722
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,443,71111.46,160.52,0.7231
