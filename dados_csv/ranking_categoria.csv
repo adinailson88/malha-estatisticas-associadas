@@ -1,15 +1,15 @@
 ﻿Dimensao,N_chamados,Valor_total_R$,Valor_medio_R$,Confianca_media
 Manutenção Preventiva > Ar condicionado split,1954,1284544.37,657.39,0.7615
-Climatização > Ar condicionado split,1635,546371.25,334.17,0.7964
+Climatização > Ar condicionado split,1638,546821.88,333.84,0.7965
 Hidrossanitária > Hidráulica,1343,207308.64,154.36,0.8002
 Estrutura Predial > Alvenaria / Pisos / Estrutura,1307,1109538.95,848.92,0.7983
 Manutenção Preventiva > Gerador,1217,128763.37,105.8,0.8933
 "Estrutura Predial > Esquadrias, porta, portão e janelas",1013,195660.33,193.15,0.7848
-Elétrica > Instalações elétricas,972,344476.63,354.4,0.8356
-Elétrica > Iluminação,775,763201.16,984.78,0.8262
+Elétrica > Instalações elétricas,971,344476.63,354.76,0.8355
+Elétrica > Iluminação,777,763201.16,982.24,0.8262
 Manutenção Preventiva > Quadros Elétricos,580,4766.27,8.22,0.8759
 TI / Dados / Rede > Ponto de rede / fibra ótica / Wi-fi,445,71111.46,159.8,0.7718
-"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",357,13629.73,38.18,0.7324
+"Instalação de Acessórios e Mobiliário > Instalação/reparo de equipamentos (Suportes de TV, acessórios de banheiro e quadro branco)",358,13674.22,38.2,0.7326
 Manutenção Preventiva > Reservatório,292,3850.46,13.19,0.701
 Manutenção Preventiva > Vistoria em Instalações,284,539290.75,1898.91,0.8915
 Outros > Erro de chamado,258,0.0,0.0,0.7314
