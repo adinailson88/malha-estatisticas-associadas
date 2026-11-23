@@ -1,10 +1,10 @@
 ﻿Campus,Categoria_raiz,N_chamados,Valor_total_R$
 Campus Sosígenes Costa,Manutenção Preventiva,1899,1919292.93
-Campus Paulo Freire,Manutenção Preventiva,1598,666095.22
+Campus Paulo Freire,Manutenção Preventiva,1604,666095.22
 Campus Jorge Amado,Manutenção Preventiva,961,1056614.91
-Campus Jorge Amado,Estrutura Predial,848,490528.85
+Campus Jorge Amado,Estrutura Predial,849,490528.85
 Campus Sosígenes Costa,Estrutura Predial,811,852019.08
-Campus Paulo Freire,Estrutura Predial,777,343993.5
+Campus Paulo Freire,Estrutura Predial,779,343993.5
 Campus Jorge Amado,Elétrica,649,687855.79
 Reitoria,Estrutura Predial,542,249714.46
 Reitoria,Manutenção Preventiva,513,394003.53
@@ -13,7 +13,7 @@ Campus Jorge Amado,Hidrossanitária,475,119215.9
 Campus Sosígenes Costa,Elétrica,468,660169.07
 Reitoria,Climatização,468,58911.53
 Campus Paulo Freire,Elétrica,461,154566.53
-Campus Sosígenes Costa,Climatização,393,259173.06
+Campus Sosígenes Costa,Climatização,393,263281.71
 Campus Paulo Freire,Hidrossanitária,385,35835.84
 Reitoria,Elétrica,373,20122.28
 Campus Sosígenes Costa,Hidrossanitária,321,291402.17
@@ -68,3 +68,4 @@ Campus Paulo Freire,Equipamentos de Transporte,1,0.0
 Campus Sosígenes Costa,Memorial,1,0.0
 Campus Sosígenes Costa,Orçamento,1,0.0
 Reitoria,Orçamento,1,0.0
+Sem campus,Manutenção Preventiva,1,0.0
