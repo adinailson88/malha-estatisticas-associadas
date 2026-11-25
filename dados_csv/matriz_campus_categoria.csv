@@ -1,34 +1,34 @@
 ﻿Campus,Categoria_raiz,N_chamados,Valor_total_R$
 Campus Sosígenes Costa,Manutenção Preventiva,1899,1919292.93
 Campus Paulo Freire,Manutenção Preventiva,1604,666095.22
-Campus Jorge Amado,Manutenção Preventiva,961,1056614.91
-Campus Jorge Amado,Estrutura Predial,849,490528.85
+Campus Jorge Amado,Manutenção Preventiva,966,1056614.91
+Campus Jorge Amado,Estrutura Predial,850,490528.85
 Campus Sosígenes Costa,Estrutura Predial,811,852019.08
-Campus Paulo Freire,Estrutura Predial,779,343993.5
+Campus Paulo Freire,Estrutura Predial,780,345903.31
 Campus Jorge Amado,Elétrica,649,687855.79
 Reitoria,Estrutura Predial,542,249714.46
+Campus Jorge Amado,Climatização,514,152917.93
 Reitoria,Manutenção Preventiva,513,394003.53
-Campus Jorge Amado,Climatização,512,152917.93
-Campus Jorge Amado,Hidrossanitária,475,119215.9
+Campus Jorge Amado,Hidrossanitária,477,119215.9
+Reitoria,Climatização,469,58911.53
 Campus Sosígenes Costa,Elétrica,468,660169.07
-Reitoria,Climatização,468,58911.53
 Campus Paulo Freire,Elétrica,461,154566.53
-Campus Sosígenes Costa,Climatização,393,263281.71
+Campus Sosígenes Costa,Climatização,393,274601.66
 Campus Paulo Freire,Hidrossanitária,385,35835.84
 Reitoria,Elétrica,373,20122.28
 Campus Sosígenes Costa,Hidrossanitária,321,291402.17
-Campus Paulo Freire,Climatização,311,181153.52
+Campus Paulo Freire,Climatização,312,181153.52
 Reitoria,Hidrossanitária,223,14649.43
-Campus Jorge Amado,Instalação de Acessórios e Mobiliário,149,6800.05
+Campus Jorge Amado,Instalação de Acessórios e Mobiliário,151,6800.05
 Campus Paulo Freire,Instalação de Acessórios e Mobiliário,149,7362.17
 Reitoria,TI / Dados / Rede,139,9738.18
-Campus Sosígenes Costa,TI / Dados / Rede,130,14455.92
+Campus Sosígenes Costa,TI / Dados / Rede,132,14455.92
 Campus Jorge Amado,TI / Dados / Rede,124,41324.47
 Campus Paulo Freire,TI / Dados / Rede,89,5592.89
 Campus Jorge Amado,Outros,85,380.68
 Campus Paulo Freire,Outros,82,13168.2
 Campus Sosígenes Costa,Outros,71,1449.05
-Campus Jorge Amado,Área Externa e Ambiental,68,103138.81
+Campus Jorge Amado,Área Externa e Ambiental,69,103138.81
 Reitoria,Instalação de Acessórios e Mobiliário,68,6618.84
 Reitoria,Outros,59,394.05
 Campus Sosígenes Costa,Instalação de Acessórios e Mobiliário,53,15669.28
